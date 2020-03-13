@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Week_5</title>
+</head>
+<style>
+.fancy{
+    color: red;
+}
+.fancy1{
+    color: black;
+}
+
+</style>
+<body>
+   <div id="empty-div"></div>
+
+ <script type="text/javascript">
+ var tergetDiv =document.getElementById("empty-div");
+
+ tergetDiv.textContent="abir";
+ tergetDiv.textContent="I am abir Yusuf";
+
+ var newDiv =document.createElement("div");
+ newDiv.textContent= "I am mim";
+ tergetDiv.appendChild(newDiv);
+
+ newDiv.setAttribute("class", "fancy");
+ tergetDiv.setAttribute("class", "fancy1");
+ 
+ </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.thought1{
+ 
+  
+  font-size: 30px;
+}
+.thought2{
+  font-weight: bold;
+}
+
+.thought3{
+  line-height: 40px;
+}
+body{
+  background-color: rgb(rgb(245, 236, 236), green, blue);
+}

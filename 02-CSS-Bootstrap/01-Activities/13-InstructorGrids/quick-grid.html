@@ -1,0 +1,92 @@
+<!-- Bootstrap Grid Demo -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Bootstrap Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    body{
+      background-color: antiquewhite;
+    }
+    .container{
+      background-color: rgb(50, 113, 92);
+    }
+    .row{
+      background-color: rgb(183, 249, 117);
+    }
+    div:not(.container):not(.row){
+      min-height: 200px;
+      border: 5px solid rgb(39, 67, 8);
+      background-color: cadetblue;
+    }
+    .float-right-costum{
+      float: right;
+    }
+    .blue{
+      background-color: blue;
+    }
+
+  </style>
+</head>
+
+<body>
+<div class="container">
+<!-- row 1 -->
+  <div class="row ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 "></div>
+        <div class="col-md-2 "></div>
+        <div class="col-md-2 "></div>
+        <div class="col-md-2 "></div>
+        <div class="col-md-2 "></div>
+      <div class="col-md-2 " ></div>
+      </div>
+<!-- row 2 -->
+
+      <div class="row">
+        <div class="col-md-4 "></div>
+        <div class="col-md-2 " style="background-color: rgb(50, 113, 92);"></div>
+        <div class="col-md-4 "></div>
+      <div class="col-md-2 " ></div>
+      </div>
+<!-- row 3 -->
+      <div class="row" style="height: 400px;">
+        <div class="col-md-3 "></div>
+        <div class="col-md-5 ">
+            <div class="row">
+            <div class="col-4 blue"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+          </div>
+          <div class="row">
+            <div class="col-4 blue"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+          </div>
+        </div>
+        <div class="col-md-2 "></div>
+
+      <div class="col-md-2 " ></div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="container">
+      <!-- <div class="row justify-content-between"> -->
+      <div class="row ">
+        <div class="col-md-8"></div>
+        <div class="col-md-5"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
